@@ -1,7 +1,7 @@
-require bd with
-user: "root"
-pass: ""
-database name: "User"
+require bd with \n
+user: "root" \n
+pass: "" \n
+database name: "User" \n
 
 
 
