@@ -1,7 +1,23 @@
-* require bd with
+# How Setup
+
+* ## 1. Create Database
 * user: "root"
 * pass: ""
 * database name: "User"
+
+## 2. Insert it data to `connect.php`
+
+## 3. Create Tables or import from DataBaseExample
+
+### User
+
+- Fileds:
+
+```mysql
+id: int
+- name: varchar
+- balance: int```
+```
 
 
 # API
