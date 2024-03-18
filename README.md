@@ -76,29 +76,32 @@ quest_id: int```
 </pre>
 
 ## quest_create
-
-// second API: method of create quest  <br />
-// need args  <br />
-// 'name': string  <br />
-// (optional) cost: int (default: 0)  <br />
-// return  <br />
-// result of success or not success created  <br />
+<pre>
+// second API: method of create quest
+// need args
+    // 'name': string
+    // (optional) cost: int (default: 0)
+// return 
+    // result of success or not success created
+</pre>
 
 ## quest_add_to_user
-
+<pre>
 // thirtd API method of success answering client to test and updating of solved quests of gived user  <br />
 // need args  <br />
-// 'user_id': int  <br />
-// 'quest_id': int  <br />
+    // 'user_id': int  <br />
+    // 'quest_id': int  <br />
 // return  <br />
-// result of solver quests  <br />
-// balance  <br />
+    // result of solver quests  <br />
+    // balance  <br />
+</pre>
 
 ## get_all_user_quests
-
+<pre>
 // fourth API method of getting all users quest and balance  <br />
 // need args  <br />
-// 'user_id': int  <br />
+    // 'user_id': int  <br />
 // return  <br />
-// result of solver quests  <br />
-// balance  <br />
+    // result of solver quests  <br />
+    // balance  <br />
+</pre>
