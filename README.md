@@ -87,21 +87,21 @@ quest_id: int```
 
 ## quest_add_to_user
 <pre>
-// thirtd API method of success answering client to test and updating of solved quests of gived user  <br />
-// need args  <br />
-    // 'user_id': int  <br />
-    // 'quest_id': int  <br />
-// return  <br />
-    // result of solver quests  <br />
-    // balance  <br />
+// thirtd API method of success answering client to test and updating of solved quests of gived user quest
+// need args quest
+    // 'user_id': int quest
+    // 'quest_id': int quest
+// return quest
+    // result of solver quests quest
+    // balance quest
 </pre>
 
 ## get_all_user_quests
 <pre>
-// fourth API method of getting all users quest and balance  <br />
-// need args  <br />
-    // 'user_id': int  <br />
-// return  <br />
-    // result of solver quests  <br />
-    // balance  <br />
+// fourth API method of getting all users quest and balance quest
+// need args quest
+    // 'user_id': int quest
+// return quest
+    // result of solver quests quest
+    // balance quest
 </pre>
