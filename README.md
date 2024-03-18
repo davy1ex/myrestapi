@@ -66,13 +66,14 @@ quest_id: int```
 # API
 
 ## user_create
-
-// first API method of create user  <br />
-// need args  <br />
-// 'name': string  <br />
-// (optional) balance: int (default: 0)  <br />
-// return  <br />
-// result of success or not success created  <br />
+<pre>
+// first API method of create user
+// need args
+    // 'name': string
+    // (optional) balance: int (default: 0)
+// return 
+    // result of success or not success created
+</pre>
 
 ## quest_create
 
