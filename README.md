@@ -1,4 +1,5 @@
 - [How Setup](#how-setup)
+  - [1. Create Database](#1-create-database)
   - [2. Insert it data to `connect.php`](#2-insert-it-data-to-connectphp)
   - [3. Create Tables or import from DataBaseExample](#3-create-tables-or-import-from-databaseexample)
     - [User](#user)
@@ -15,7 +16,7 @@
 
 # How Setup
 
-* ## 1. Create Database
+## 1. Create Database
 * user: "root"
 * pass: ""
 * database name: "User"
