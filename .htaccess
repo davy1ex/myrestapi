@@ -1,0 +1,7 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_URI} !^/quest_page\.php$
+RewriteCond %{REQUEST_URI} !^/submit_answers\.php$
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.+)$ main.php?q=$1 [L,QSA]
