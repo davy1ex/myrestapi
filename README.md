@@ -34,7 +34,7 @@ $db: {your bd name}
 ```mysql
 id: int
 name: varchar
-balance: int```
+balance: int
 ```
 
 
@@ -45,7 +45,7 @@ balance: int```
 ```mysql
 id: int
 name: varchar
-cost: int```
+cost: int
 ```
 
 
@@ -58,7 +58,7 @@ cost: int```
 ```mysql
 id: int
 user_id: int
-quest_id: int```
+quest_id: int
 ```
 
 ## 3. Run from Apache
