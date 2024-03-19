@@ -1,11 +1,10 @@
 - [How Setup](#how-setup)
-  - [1. Create Database](#1-create-database)
-  - [2. Insert it data to `connect.php`](#2-insert-it-data-to-connectphp)
-  - [3. Create Tables or import from DataBaseExample](#3-create-tables-or-import-from-databaseexample)
+  - [1. Create Database (next bd) and put params to `connect.php`:](#1-create-database-next-bd-and-put-params-to-connectphp)
+  - [2. Create Tables or import from DataBaseExample](#2-create-tables-or-import-from-databaseexample)
     - [User](#user)
     - [Quest](#quest)
     - [UserQuests](#userquests)
-  - [4. Run from Apache](#4-run-from-apache)
+  - [3. Run from Apache](#3-run-from-apache)
 - [API](#api)
   - [user\_create](#user_create)
   - [quest\_create](#quest_create)
@@ -14,16 +13,19 @@
 
 
 
+
 # How Setup
 
-## 1. Create Database
-* user: "root"
-* pass: ""
-* database name: "User"
+## 1. Create Database (next bd) and put params to `connect.php`:
+```php
+`$servername`: your 
+`$username`: your username from bd account
+`$password`: your password from bd account
+`$db`: your bd name
+```
 
-## 2. Insert it data to `connect.php`
 
-## 3. Create Tables or import from DataBaseExample
+## 2. Create Tables or import from DataBaseExample
 
 ### User
 
@@ -59,7 +61,7 @@ user_id: int
 quest_id: int```
 ```
 
-## 4. Run from Apache
+## 3. Run from Apache
 
 
 
