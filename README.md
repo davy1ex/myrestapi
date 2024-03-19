@@ -18,10 +18,10 @@
 
 ## 1. Create Database (next bd) and put params to `connect.php`:
 ```php
-`$servername`: your 
-`$username`: your username from bd account
-`$password`: your password from bd account
-`$db`: your bd name
+$servername: {your address to sql server}
+$username: {your username from sql server account}
+$password: {your password from sql server account}
+$db: {your bd name}
 ```
 
 
